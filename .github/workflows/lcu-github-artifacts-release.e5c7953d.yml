@@ -10,8 +10,8 @@ env:
   Branches: main
   MainBranch: main
   NPMRegistry: https://registry.npmjs.org/
-  InstallCommand: php -S 0.0.0.0:5000
-  BuildCommand: php -S 0.0.0.0:5000
+  InstallCommand: npm i -g vercel
+  BuildCommand: npm i -g vercel
   Output: ./output
 
 jobs:
